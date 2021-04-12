@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+}
+
+canvas {
+
+  position: fixed;
+  bottom:0px;
+  right: 0px;
+  z-index:1000 ;
+
+}
