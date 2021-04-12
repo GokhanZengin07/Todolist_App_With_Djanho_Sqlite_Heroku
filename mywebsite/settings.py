@@ -124,6 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT=os.path.join(BASE_DIR,"staticfiles")
 STATICFILES_DIRS=[(os.path.join(BASE_DIR,"static"))]
 CRISPY_TEMPLATE_PACK="bootstrap4"
 LOGIN_REDIRECT_URL="todolist"
